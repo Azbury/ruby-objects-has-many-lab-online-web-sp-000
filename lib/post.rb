@@ -1,10 +1,9 @@
 class Post
   @@all = []
-  attr_reader :name
-  attr_accessor :title
+  attr_reader :title
 
   def initialize (name)
-    @name = name
+    @title = name
     @@all << self
   end
 
